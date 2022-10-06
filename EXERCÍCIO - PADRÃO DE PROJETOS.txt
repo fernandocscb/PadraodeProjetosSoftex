@@ -1,0 +1,18 @@
+Escolha e descreva um padrão de projetos.
+
+Padrões de Criação (Creational): 
+
+Esses padrões têm por finalidade a abstração da instanciação de objetos. Através destes, o sistema solicita um objeto de determinado tipo, e o obterá finalizado, dispensando as nuances da criação. Simplificando o conceito, os padrões de criação podem ser vistos como uma encomenda solicitada na qual o processo de desenvolvimento não é levado em consideração pelo solicitante. 
+
+ 
+Os padrões de criação podem ser divididos da seguinte maneira:
+
+     Abstract Factory - Um método Factory fabrica objetos de um tipo particular, enquanto um objeto Factory encapsula métodos Factory;
+
+     Builder - Um objeto complexo é separado de sua representação, para que o próprio processo de construção desenvolve diferentes representações;
+
+     Factory Method - Trata-se de uma interface para instanciação de objetos que isola as classes concretas usadas da requisição da criação destes objetos;
+
+     Prototype - É responsável por prover uma outra maneira de construção de objetos de tipos arbitrários;
+
+     Singleton - Determina que só para uma classe específica só possa existir uma única instância, sendo a mesma acessível de forma global e uniforme.
